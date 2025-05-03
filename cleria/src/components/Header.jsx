@@ -6,7 +6,7 @@ import { AccountCircle } from '@mui/icons-material';
 const Header = () => {
   return (
     <div className="flex items-center justify-between w-full px-4 py-4 bg-transparent fixed top-0 left-0 right-0 z-50">
-      
+
       {/* Logo on the Left */}
       <Link to="/">
         <img src={logo} alt="Logo" className="h-14 mr-4" />
@@ -24,7 +24,7 @@ const Header = () => {
           {/* <Link to="/services/recommendations">
           <button className="text-gray-600 mx-10 font-bold text-xl hover:text-blue-500 transition cursor-pointer">Get Recommendation</button>
           </Link> */}
-         
+
         </nav>
       </div>
 
